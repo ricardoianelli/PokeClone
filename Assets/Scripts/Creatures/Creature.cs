@@ -9,7 +9,6 @@ namespace Creatures
         protected Rigidbody2D _rigidbody2D;
         protected Animator _animator;
         protected bool _moving = false;
-        protected Direction _lookDirection = Direction.None;
         protected Direction _moveDirection = Direction.None;
     }
 }

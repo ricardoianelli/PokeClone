@@ -24,16 +24,13 @@ namespace Creatures
             
             if (_moving) return;
             
-            var movementDirection = movementInput.GetMovementDirection();
+            _moveDirection = movementInput.GetMovementDirection();
             
-            var positionChange = MovementInput.GetPositionChangeByDirection(movementDirection);
-            _animator.SetFloat("moveX", positionChange.x);
-            _animator.SetFloat("moveY", positionChange.y);
-
-            if (movementDirection != Direction.None)
+            if (_moveDirection != Direction.None)
             {
                 _moving = true;
-                StartCoroutine(MoveCharacter(movementDirection));
+                UpdateMoveAnimation();
+                StartCoroutine(MoveCharacter(_moveDirection));
             }
         }
 
@@ -48,6 +45,16 @@ namespace Creatures
             }
 
             _moving = false;
+            UpdateMoveAnimation();
+        }
+
+        private void UpdateMoveAnimation()
+        {
+            var positionChange = MovementInput.GetPositionChangeByDirection(_moveDirection);
+            _animator.SetFloat("moveX", positionChange.x);
+            _animator.SetFloat("moveY", positionChange.y);
+            
+            _animator.SetBool("moving", _moving);
         }
     }
 }
