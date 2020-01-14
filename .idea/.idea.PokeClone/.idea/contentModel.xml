@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ricardo.ianelli\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ricardo.ianelli\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ricardo.ianelli\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ricardo.ianelli\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PokeClone.-1144151547.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ricardo.ianelli\PokeClone" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Creatures" t="Include">
+            <e p="Creature.cs" t="Include" />
+            <e p="MainPlayer.cs" t="Include" />
+          </e>
+          <e p="Util" t="Include">
+            <e p="Direction.cs" t="Include" />
+            <e p="IMovementInput.cs" t="Include" />
+            <e p="KeyboardInput.cs" t="Include" />
+            <e p="MovementInput.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TBS Framework" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CustomUnitGeneratorHelper.cs" t="Include" />
+            <e p="GridGenerators" t="Include">
+              <e p="EquilateralHexGridGenerator.cs" t="Include" />
+              <e p="HexagonalHexGridGenerator.cs" t="Include" />
+              <e p="ICellGridGenerator.cs" t="Include" />
+              <e p="RectangularHexGridGenerator.cs" t="Include" />
+              <e p="RectangularSquareGridGenerator.cs" t="Include" />
+              <e p="TriangularHexGridGenerator.cs" t="Include" />
+            </e>
+            <e p="GridHelper.cs" t="Include" />
+            <e p="GridHelperUtils.cs" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Example1" t="Include">
+              <e p="Scenes" t="Include">
+                <e p="Readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Archer.cs" t="Include" />
+                <e p="AttackBuff.cs" t="Include" />
+                <e p="BuffSpawner.cs" t="Include" />
+                <e p="DefenceBuff.cs" t="Include" />
+                <e p="GuiController.cs" t="Include" />
+                <e p="HealingBuff.cs" t="Include" />
+                <e p="Hero.cs" t="Include" />
+                <e p="MyHexagon.cs" t="Include" />
+                <e p="MyUnit.cs" t="Include" />
+                <e p="Paladin.cs" t="Include" />
+                <e p="RandomObstacleGenerator.cs" t="Include" />
+                <e p="Spearman.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Example2" t="Include">
+              <e p="Scenes" t="Include">
+                <e p="Readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Alien.cs" t="Include" />
+                <e p="FlyingAlien.cs" t="Include" />
+                <e p="MyOtherHexagon.cs" t="Include" />
+                <e p="OtherGuiController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Example3" t="Include">
+              <e p="Scenes" t="Include">
+                <e p="Readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="GenericUnit.cs" t="Include" />
+                <e p="MySquare.cs" t="Include" />
+                <e p="NextGuiController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Example4" t="Include">
+              <e p="Scenes" t="Include">
+                <e p="Readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AdvWrsSquare.cs" t="Include" />
+                <e p="AdvWrsUnit.cs" t="Include" />
+                <e p="AdvWrsWizard.cs" t="Include" />
+                <e p="GuiController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tutorial" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="SampleSquare.cs" t="Include" />
+                <e p="SampleUnit.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ReleaseNotes.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Cells" t="Include">
+              <e p="Cell.cs" t="Include" />
+              <e p="Hexagon.cs" t="Include" />
+              <e p="Square.cs" t="Include" />
+            </e>
+            <e p="Grid" t="Include">
+              <e p="CellGrid.cs" t="Include" />
+              <e p="GridStates" t="Include">
+                <e p="CellGridState.cs" t="Include" />
+                <e p="CellGridStateAiTurn.cs" t="Include" />
+                <e p="CellGridStateGameOver.cs" t="Include" />
+                <e p="CellGridStateTurnChanging.cs" t="Include" />
+                <e p="CellGridStateUnitSelected.cs" t="Include" />
+                <e p="CellGridStateWaitingForInput.cs" t="Include" />
+              </e>
+              <e p="UnitGenerators" t="Include">
+                <e p="CustomUnitGenerator.cs" t="Include" />
+                <e p="IUnitGenerator.cs" t="Include" />
+                <e p="RandomUnitGenerator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Gui" t="Include">
+              <e p="CameraController.cs" t="Include" />
+              <e p="GuiController.cs" t="Include" />
+            </e>
+            <e p="Pathfinding" t="Include">
+              <e p="Algorithms" t="Include">
+                <e p="AStarPathfinding.cs" t="Include" />
+                <e p="DijkstraPathfinding.cs" t="Include" />
+                <e p="IPathfinding.cs" t="Include" />
+              </e>
+              <e p="DataStructs" t="Include">
+                <e p="HeapPriorityQueue.cs" t="Include" />
+                <e p="IGraphNode.cs" t="Include" />
+                <e p="IPriorityQueue.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Players" t="Include">
+              <e p="HumanPlayer.cs" t="Include" />
+              <e p="NaiveAiPlayer.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+            </e>
+            <e p="Units" t="Include">
+              <e p="Buff.cs" t="Include" />
+              <e p="Unit.cs" t="Include" />
+              <e p="UnitStates" t="Include">
+                <e p="UnitState.cs" t="Include" />
+                <e p="UnitStateMarkedAsFinished.cs" t="Include" />
+                <e p="UnitStateMarkedAsFriendly.cs" t="Include" />
+                <e p="UnitStateMarkedAsReachableEnemy.cs" t="Include" />
+                <e p="UnitStateMarkedAsSelected.cs" t="Include" />
+                <e p="UnitStateNormal.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PokeClone.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
