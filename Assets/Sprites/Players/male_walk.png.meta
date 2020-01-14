@@ -11,6 +11,9 @@ TextureImporter:
     21300012: male_walk_6
     21300014: male_walk_7
     21300016: male_walk_8
+    21300018: male_walk_9
+    21300020: male_walk_10
+    21300022: male_walk_11
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -119,17 +122,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 42
-        width: 16
-        height: 20
+        y: 62
+        width: 15
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9984676869a3504b9d5ea2fa80cb40c
+      spriteID: a35c15b78edb9f141b4bbc822cc14061
       vertices: []
       indices: 
       edges: []
@@ -138,18 +141,18 @@ TextureImporter:
       name: male_walk_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 42
-        width: 16
-        height: 20
+        x: 17
+        y: 63
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d50d2ccd52df6924b82610f048da4ac9
+      spriteID: cf75fe1dea43c3b47803138689c4c01d
       vertices: []
       indices: 
       edges: []
@@ -158,18 +161,18 @@ TextureImporter:
       name: male_walk_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 42
-        width: 16
-        height: 20
+        x: 33
+        y: 62
+        width: 15
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9715239a584ac049b1f26b904d42e6a
+      spriteID: 438e81cf04c990948bbc52bd9470408c
       vertices: []
       indices: 
       edges: []
@@ -178,18 +181,18 @@ TextureImporter:
       name: male_walk_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 21
-        width: 16
-        height: 20
+        x: 1
+        y: 41
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44cb2579da8fe27499fac6d2fdb437cf
+      spriteID: 8550082e1bcc87545a5d1b850a4be37f
       vertices: []
       indices: 
       edges: []
@@ -198,18 +201,18 @@ TextureImporter:
       name: male_walk_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 21
-        width: 16
-        height: 20
+        x: 17
+        y: 42
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa8aef02d0296d46a2a58a78c102342
+      spriteID: 89a3826b835d6de4dae1befa1f1a57b2
       vertices: []
       indices: 
       edges: []
@@ -218,18 +221,18 @@ TextureImporter:
       name: male_walk_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 21
-        width: 16
-        height: 20
+        x: 33
+        y: 41
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0c85ba4f6bf40e419429c5d4e5e2d42
+      spriteID: d5512c4c9e159ae449c56fa0367b7935
       vertices: []
       indices: 
       edges: []
@@ -238,18 +241,18 @@ TextureImporter:
       name: male_walk_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 20
+        x: 1
+        y: 21
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28bf8c149667c8f4d91641220a0f6395
+      spriteID: 58e79a946ce14864aa01586eb3d3bac4
       vertices: []
       indices: 
       edges: []
@@ -259,17 +262,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
-        width: 16
-        height: 20
+        y: 21
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f21eb128b0acddb49afd64e59245590c
+      spriteID: 39a4e9f7b64907041a92edefb9b5a9ce
       vertices: []
       indices: 
       edges: []
@@ -279,17 +282,77 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
-        width: 16
-        height: 20
+        y: 21
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e1dde008b16924cb2ee8e33dd45646
+      spriteID: 70860a722b6bcf04b921a861a83801a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male_walk_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff25d8be48581f4ebaa573689842a57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male_walk_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991fe19b98be1348b4f085933580928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male_walk_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e21836886053443a989c5220aa1cf6
       vertices: []
       indices: 
       edges: []

@@ -13,7 +13,8 @@ namespace Creatures
 
         void Start()
         {
-            //Animator = GetComponent<Animator>();
+            _movementSpeed = 4;
+            _animator = GetComponent<Animator>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
         }
         
@@ -23,9 +24,12 @@ namespace Creatures
             
             if (_moving) return;
             
-            print("not moving");
             var movementDirection = movementInput.GetMovementDirection();
-            print(movementDirection);
+            
+            var positionChange = MovementInput.GetPositionChangeByDirection(movementDirection);
+            _animator.SetFloat("moveX", positionChange.x);
+            _animator.SetFloat("moveY", positionChange.y);
+
             if (movementDirection != Direction.None)
             {
                 _moving = true;
@@ -35,7 +39,7 @@ namespace Creatures
 
         private IEnumerator MoveCharacter(Direction moveDirection)
         {
-            var newPosition = GetPositionByDirection(_rigidbody2D.position, moveDirection);
+            var newPosition = MovementInput.GetPositionByDirection(_rigidbody2D.position, moveDirection);
             while (_rigidbody2D.position != newPosition)
             {
                 _rigidbody2D.position =
