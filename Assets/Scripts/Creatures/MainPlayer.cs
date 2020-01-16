@@ -19,43 +19,24 @@ namespace Creatures
         }
         
         // Update is called once per frame
-        private void Update()
+        private void FixedUpdate()
         {
-            
-            if (_moving) return;
             
             _moveDirection = movementInput.GetMovementDirection();
-
-            if (_moveDirection != Direction.None)
+            _moving = (_moveDirection != Direction.None);
+            _animator.SetBool("moving", _moving);
+            if (_moving)
             {
-                UpdateMoveAnimation();
-                _moving = true;
-                _animator.SetBool("moving", true);
-                StartCoroutine(MoveCharacter(_moveDirection));
+                MoveCharacter(_moveDirection);
             }
         }
 
-        private IEnumerator MoveCharacter(Direction moveDirection)
-        {
-            var newPosition = MovementInput.GetPositionByDirection(_rigidbody2D.position, moveDirection);
-            while (_rigidbody2D.position != newPosition)
-            {
-                _rigidbody2D.position =
-                    Vector2.MoveTowards(_rigidbody2D.position, newPosition, Time.deltaTime * _movementSpeed);
-                yield return 0;
-            }
-
-            _moving = false;
-            _animator.SetBool("moving", false);
-        }
-
-        private void UpdateMoveAnimation()
+        private void MoveCharacter(Direction moveDirection)
         {
             var positionChange = MovementInput.GetPositionChangeByDirection(_moveDirection);
             _animator.SetFloat("moveX", positionChange.x);
             _animator.SetFloat("moveY", positionChange.y);
-            
-            //_animator.SetBool("moving", _moving);
+            _rigidbody2D.MovePosition(transform.position + (Vector3)positionChange * (_movementSpeed * Time.deltaTime));
         }
     }
 }
