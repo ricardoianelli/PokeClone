@@ -8,6 +8,19 @@ namespace PokeTactics.Pokemons.Scripts
         public int Id { get; set; }
         public string Name { get; set; }
         public Attributes Attributes { get; set; }
+
+        //TODO: Create constructor receiving a Pokemon ID
+        public Pokemon()
+        {
+            Id = 1;
+            Name = "Teste";
+            Attributes = new Attributes()
+            {
+                Health = {MaxValue = 10, Value = 10},
+                AttackPoints = {MaxValue = 5, Value = 5},
+                MovementPoints = {MaxValue = 3, Value = 3},
+            };
+        }
         
         public override void Initialize()
         {
