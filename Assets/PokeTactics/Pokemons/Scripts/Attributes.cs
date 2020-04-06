@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace PokeTactics.Pokemons.Scripts
+﻿namespace PokeTactics.Pokemons.Scripts
 {
     public class Attributes
     {
+        public Attribute Health;
+        public Attribute AttackPoints;
+        public Attribute MovementPoints;
         public Attribute Attack;
         public Attribute SpecialAttack;
         public Attribute Defense;
@@ -12,6 +13,9 @@ namespace PokeTactics.Pokemons.Scripts
 
         public Attributes()
         {
+            Health = new Attribute("HP");
+            AttackPoints = new Attribute("AP");
+            MovementPoints = new Attribute("MP");
             Attack = new Attribute("Attack");
             SpecialAttack = new Attribute("Sp. Attack");
             Defense = new Attribute("Defense");
@@ -23,12 +27,14 @@ namespace PokeTactics.Pokemons.Scripts
     public class Attribute
     {
         public string Name { get; set; }
+        public int MaxValue { get; set; }
         public int Value { get; set; }
         public int Modifier { get; set; }
 
         public Attribute()
         {
             Value = 1;
+            MaxValue = 1;
             Modifier = 0;
         }
 
