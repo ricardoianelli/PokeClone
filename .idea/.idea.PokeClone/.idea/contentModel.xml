@@ -9,6 +9,19 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="PokeTactics" t="Include">
+          <e p="Moves" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Move.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Pokemons" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Attributes.cs" t="Include" />
+              <e p="Pokemon.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Creatures" t="Include">
             <e p="Creature.cs" t="Include" />
